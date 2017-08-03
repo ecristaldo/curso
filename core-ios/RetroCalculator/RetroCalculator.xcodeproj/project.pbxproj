@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A0548F1D1F31737D00FA2C16 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		A0548F1D1F31737D00FA2C16 /* btn.wav */ = {isa = PBXFileReference; explicitFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		A0630CAD1F2F979200EC3639 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0630CB01F2F979200EC3639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0630CB21F2F979200EC3639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +201,7 @@
 				TargetAttributes = {
 					A0630CAC1F2F979200EC3639 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BY386XP7AQ;
 						ProvisioningStyle = Automatic;
 					};
 					A0630CC01F2F979200EC3639 = {
@@ -216,7 +217,7 @@
 				};
 			};
 			buildConfigurationList = A0630CA81F2F979200EC3639 /* Build configuration list for PBXProject "RetroCalculator" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -426,6 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
+				DEVELOPMENT_TEAM = BY386XP7AQ;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ed-Testes.RetroCalculator";
@@ -438,6 +442,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_ACTIVITY_MODE = "";
+				DEVELOPMENT_TEAM = BY386XP7AQ;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Ed-Testes.RetroCalculator";
