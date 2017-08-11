@@ -1,0 +1,6 @@
+framework module Pods_Kettlebell_Training_Assistant {
+  umbrella header "Pods-Kettlebell Training Assistant-umbrella.h"
+
+  export *
+  module * { export * }
+}

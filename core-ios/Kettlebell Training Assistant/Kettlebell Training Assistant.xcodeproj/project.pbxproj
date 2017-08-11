@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03DEDDB1F3A13760082BC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03DEDDA1F3A13760082BC3E /* AppDelegate.swift */; };
+		A03DEDDD1F3A13760082BC3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03DEDDC1F3A13760082BC3E /* ViewController.swift */; };
+		A03DEDE01F3A13760082BC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03DEDDE1F3A13760082BC3E /* Main.storyboard */; };
+		A03DEDE31F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A03DEDE11F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodeld */; };
+		A03DEDE51F3A13760082BC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03DEDE41F3A13760082BC3E /* Assets.xcassets */; };
+		A03DEDE81F3A13760082BC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03DEDE61F3A13760082BC3E /* LaunchScreen.storyboard */; };
+		A03DEDF01F3A13B90082BC3E /* crossfit_foundational_exercises_list.json in Resources */ = {isa = PBXBuildFile; fileRef = A03DEDEF1F3A13B90082BC3E /* crossfit_foundational_exercises_list.json */; };
+		A04C6EE61F3C8839001F1F0A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04C6EE51F3C8839001F1F0A /* Section.swift */; };
+		A04C6EE81F3C9798001F1F0A /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04C6EE71F3C9798001F1F0A /* HeaderCell.swift */; };
+		BBBF635D4C4FF24A2FCE6490 /* Pods_Kettlebell_Training_Assistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC294C4024B72813A94D426 /* Pods_Kettlebell_Training_Assistant.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FC294C4024B72813A94D426 /* Pods_Kettlebell_Training_Assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kettlebell_Training_Assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D80E11FB286742829A0481 /* Pods-Kettlebell Training Assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kettlebell Training Assistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kettlebell Training Assistant/Pods-Kettlebell Training Assistant.debug.xcconfig"; sourceTree = "<group>"; };
+		A03DEDD71F3A13760082BC3E /* Kettlebell Training Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kettlebell Training Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03DEDDA1F3A13760082BC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A03DEDDC1F3A13760082BC3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A03DEDDF1F3A13760082BC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A03DEDE21F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kettlebell_Training_Assistant.xcdatamodel; sourceTree = "<group>"; };
+		A03DEDE41F3A13760082BC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A03DEDE71F3A13760082BC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A03DEDE91F3A13760082BC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03DEDEF1F3A13B90082BC3E /* crossfit_foundational_exercises_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = crossfit_foundational_exercises_list.json; sourceTree = "<group>"; };
+		A04C6EE51F3C8839001F1F0A /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		A04C6EE71F3C9798001F1F0A /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		B82B194FED6F836456C8D67B /* Pods-Kettlebell Training Assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kettlebell Training Assistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kettlebell Training Assistant/Pods-Kettlebell Training Assistant.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03DEDD41F3A13760082BC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF635D4C4FF24A2FCE6490 /* Pods_Kettlebell_Training_Assistant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A03DEDCE1F3A13760082BC3E = {
+			isa = PBXGroup;
+			children = (
+				A03DEDD91F3A13760082BC3E /* Kettlebell Training Assistant */,
+				A03DEDD81F3A13760082BC3E /* Products */,
+				FEAC74BD760738645FB26AE9 /* Pods */,
+				A4F2BB009A54C61783D84C9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A03DEDD81F3A13760082BC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03DEDD71F3A13760082BC3E /* Kettlebell Training Assistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03DEDD91F3A13760082BC3E /* Kettlebell Training Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				A03DEDDA1F3A13760082BC3E /* AppDelegate.swift */,
+				A03DEDDC1F3A13760082BC3E /* ViewController.swift */,
+				A03DEDEF1F3A13B90082BC3E /* crossfit_foundational_exercises_list.json */,
+				A03DEDDE1F3A13760082BC3E /* Main.storyboard */,
+				A03DEDE41F3A13760082BC3E /* Assets.xcassets */,
+				A03DEDE61F3A13760082BC3E /* LaunchScreen.storyboard */,
+				A03DEDE91F3A13760082BC3E /* Info.plist */,
+				A03DEDE11F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodeld */,
+				A04C6EE51F3C8839001F1F0A /* Section.swift */,
+				A04C6EE71F3C9798001F1F0A /* HeaderCell.swift */,
+			);
+			path = "Kettlebell Training Assistant";
+			sourceTree = "<group>";
+		};
+		A4F2BB009A54C61783D84C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FC294C4024B72813A94D426 /* Pods_Kettlebell_Training_Assistant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAC74BD760738645FB26AE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84D80E11FB286742829A0481 /* Pods-Kettlebell Training Assistant.debug.xcconfig */,
+				B82B194FED6F836456C8D67B /* Pods-Kettlebell Training Assistant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03DEDD61F3A13760082BC3E /* Kettlebell Training Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03DEDEC1F3A13760082BC3E /* Build configuration list for PBXNativeTarget "Kettlebell Training Assistant" */;
+			buildPhases = (
+				6621985D1FA4912941D1494A /* [CP] Check Pods Manifest.lock */,
+				A03DEDD31F3A13760082BC3E /* Sources */,
+				A03DEDD41F3A13760082BC3E /* Frameworks */,
+				A03DEDD51F3A13760082BC3E /* Resources */,
+				4E69CB156BAD2409B8722F1D /* [CP] Embed Pods Frameworks */,
+				721BBE4639A959F7D5B656D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kettlebell Training Assistant";
+			productName = "Kettlebell Training Assistant";
+			productReference = A03DEDD71F3A13760082BC3E /* Kettlebell Training Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A03DEDCF1F3A13760082BC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Eduardo Cristaldo";
+				TargetAttributes = {
+					A03DEDD61F3A13760082BC3E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BY386XP7AQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A03DEDD21F3A13760082BC3E /* Build configuration list for PBXProject "Kettlebell Training Assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A03DEDCE1F3A13760082BC3E;
+			productRefGroup = A03DEDD81F3A13760082BC3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03DEDD61F3A13760082BC3E /* Kettlebell Training Assistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03DEDD51F3A13760082BC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03DEDE81F3A13760082BC3E /* LaunchScreen.storyboard in Resources */,
+				A03DEDE51F3A13760082BC3E /* Assets.xcassets in Resources */,
+				A03DEDF01F3A13B90082BC3E /* crossfit_foundational_exercises_list.json in Resources */,
+				A03DEDE01F3A13760082BC3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E69CB156BAD2409B8722F1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kettlebell Training Assistant/Pods-Kettlebell Training Assistant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CollapsibleTableSectionViewController/CollapsibleTableSectionViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollapsibleTableSectionViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kettlebell Training Assistant/Pods-Kettlebell Training Assistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6621985D1FA4912941D1494A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kettlebell Training Assistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721BBE4639A959F7D5B656D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kettlebell Training Assistant/Pods-Kettlebell Training Assistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03DEDD31F3A13760082BC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03DEDDD1F3A13760082BC3E /* ViewController.swift in Sources */,
+				A04C6EE81F3C9798001F1F0A /* HeaderCell.swift in Sources */,
+				A04C6EE61F3C8839001F1F0A /* Section.swift in Sources */,
+				A03DEDDB1F3A13760082BC3E /* AppDelegate.swift in Sources */,
+				A03DEDE31F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A03DEDDE1F3A13760082BC3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03DEDDF1F3A13760082BC3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A03DEDE61F3A13760082BC3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03DEDE71F3A13760082BC3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A03DEDEA1F3A13760082BC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A03DEDEB1F3A13760082BC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03DEDED1F3A13760082BC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D80E11FB286742829A0481 /* Pods-Kettlebell Training Assistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BY386XP7AQ;
+				INFOPLIST_FILE = "Kettlebell Training Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ecristaldo.Kettlebell-Training-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A03DEDEE1F3A13760082BC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82B194FED6F836456C8D67B /* Pods-Kettlebell Training Assistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BY386XP7AQ;
+				INFOPLIST_FILE = "Kettlebell Training Assistant/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ecristaldo.Kettlebell-Training-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03DEDD21F3A13760082BC3E /* Build configuration list for PBXProject "Kettlebell Training Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03DEDEA1F3A13760082BC3E /* Debug */,
+				A03DEDEB1F3A13760082BC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03DEDEC1F3A13760082BC3E /* Build configuration list for PBXNativeTarget "Kettlebell Training Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03DEDED1F3A13760082BC3E /* Debug */,
+				A03DEDEE1F3A13760082BC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A03DEDE11F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A03DEDE21F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodel */,
+			);
+			currentVersion = A03DEDE21F3A13760082BC3E /* Kettlebell_Training_Assistant.xcdatamodel */;
+			path = Kettlebell_Training_Assistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A03DEDCF1F3A13760082BC3E /* Project object */;
+}

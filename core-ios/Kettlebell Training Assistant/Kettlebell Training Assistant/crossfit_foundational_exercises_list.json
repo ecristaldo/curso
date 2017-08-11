@@ -1,0 +1,70 @@
+{
+    "crossfit":
+    [{
+     "id": 0,
+     "super": "Weightlifting",
+     "types": [
+               {
+               "name" : "Squats",
+               "subtypes" : [
+                             {"id": 0, "name": "Air Squat"},
+                             {"id": 1, "name": "Fron Squat"},
+                             {"id": 2, "name": "Overhead Squat"},
+                             {"id": 3, "name": "Shoulder Press"},
+                             {"id": 4, "name": "Push Press"},
+                             {"id": 5, "name": "Push Jerk"},
+                             {"id": 6, "name": "Deadlift"},
+                             {"id": 7, "name": "Medicine-Ball Clean"},
+                             {"id": 8, "name": "Sumo Deadlift High Pull"},
+                             {"id": 9, "name": "Thruster"},
+                             {"id": 10, "name": "Overhead Squat"},
+                             {"id": 11, "name": "Wall Ball"},
+                             {"id": 12, "name": "Pull-up"}
+                             ]
+               },
+               {
+               "name" : "Squats 2",
+               "subtypes" : [
+                             {"id": 0, "name": "Air Squat"},
+                             {"id": 1, "name": "Fron Squat"},
+                             {"id": 2, "name": "Overhead Squat"},
+                             {"id": 3, "name": "Shoulder Press"},
+                             {"id": 4, "name": "Push Press"},
+                             {"id": 5, "name": "Push Jerk"},
+                             {"id": 6, "name": "Deadlift"},
+                             {"id": 7, "name": "Medicine-Ball Clean"},
+                             {"id": 8, "name": "Sumo Deadlift High Pull"},
+                             {"id": 9, "name": "Thruster"},
+                             {"id": 10, "name": "Overhead Squat"},
+                             {"id": 11, "name": "Wall Ball"},
+                             {"id": 12, "name": "Pull-up"}
+                             ]
+               }
+               ]
+     },
+     {
+     "id": 1,
+     "super": "Olympic",
+     "types": [
+               {
+               "name" : "Squats 21",
+               "subtypes" : [
+                             {"id": 0, "name": "Air Squat"},
+                             {"id": 1, "name": "Fron Squat"},
+                             {"id": 2, "name": "Overhead Squat"},
+                             {"id": 3, "name": "Shoulder Press"},
+                             {"id": 4, "name": "Push Press"},
+                             {"id": 5, "name": "Push Jerk"},
+                             {"id": 6, "name": "Deadlift"},
+                             {"id": 7, "name": "Medicine-Ball Clean"},
+                             {"id": 8, "name": "Sumo Deadlift High Pull"},
+                             {"id": 9, "name": "Thruster"},
+                             {"id": 10, "name": "Overhead Squat"},
+                             {"id": 11, "name": "Wall Ball"},
+                             {"id": 12, "name": "Pull-up"}
+                             ]
+               }
+               ]
+     }
+     ]
+}

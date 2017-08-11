@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -156,12 +157,24 @@
                                     <constraint firstAttribute="height" constant="171" id="Tg3-Am-O5s"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xf-57-gve">
+                                <rect key="frame" x="21" y="306" width="343" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="Alc-fe-6vI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="StillTime-Regular" family="Still Time" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.82792260362694303" green="0.82792260362694303" blue="0.82792260362694303" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="5Xf-57-gve" firstAttribute="leading" secondItem="hI7-Pf-6tE" secondAttribute="leadingMargin" constant="5" id="8Iq-0i-Ahi"/>
+                            <constraint firstItem="5Xf-57-gve" firstAttribute="top" secondItem="kGT-0m-odk" secondAttribute="bottom" constant="115" id="Byz-Fx-wa1"/>
                             <constraint firstAttribute="trailing" secondItem="kGT-0m-odk" secondAttribute="trailing" id="Qkh-8u-yUJ"/>
                             <constraint firstItem="kGT-0m-odk" firstAttribute="top" secondItem="dYB-yA-ReK" secondAttribute="bottom" id="g65-Qb-gde"/>
                             <constraint firstItem="kGT-0m-odk" firstAttribute="leading" secondItem="hI7-Pf-6tE" secondAttribute="leading" id="mCr-hN-ic5"/>
+                            <constraint firstItem="5Xf-57-gve" firstAttribute="trailing" secondItem="hI7-Pf-6tE" secondAttribute="trailingMargin" constant="5" id="vIg-GK-ksa"/>
                         </constraints>
                     </view>
                 </viewController>

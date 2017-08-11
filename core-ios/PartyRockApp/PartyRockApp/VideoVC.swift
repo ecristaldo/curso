@@ -2,14 +2,26 @@
 //  VideoVC.swift
 //  PartyRockApp
 //
-//  Created by Eduardo Cristaldo on 8/3/17.
+//  Created by Eduardo Cristaldo on 8/11/17.
 //  Copyright © 2017 Eduardo Cristaldo. All rights reserved.
 //
 
 import UIKit
 
 class VideoVC: UIViewController {
-
+    
+    @IBOutlet weak var webView: UIWebView!
+    
+    private var _partyRock : PartyRock!
+    
+    var partyRock: PartyRock {
+        get {
+            return _partyRock
+        } set {
+            _partyRock = newValue
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
