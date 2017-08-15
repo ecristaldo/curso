@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rainyshinycloudy/CurrentWeather.swift"
+            timestampString = "524440378.700468"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "downloadWeatherDetails(completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rainyshinycloudy.CurrentWeather.(downloadWeatherDetails (completed : () -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "rainyshinycloudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/curso/core-ios/rainyshinycloudy/rainyshinycloudy/CurrentWeather.swift"
+                  timestampString = "524267261.220071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "1618">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rainyshinycloudy.CurrentWeather.(downloadWeatherDetails (completed : () -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "rainyshinycloudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardo/Documents/curso/core-ios/rainyshinycloudy/rainyshinycloudy/CurrentWeather.swift"
+                  timestampString = "524267261.221918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "2164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

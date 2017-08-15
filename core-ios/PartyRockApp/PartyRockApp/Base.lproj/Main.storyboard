@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
-        <!--View Controller-->
+        <!--VideoVC-->
         <scene sceneID="IBn-zR-Uca">
             <objects>
-                <viewController id="1rI-iF-AuL" sceneMemberID="viewController">
+                <viewController id="1rI-iF-AuL" customClass="VideoVC" customModule="PartyRockApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dYB-yA-ReK"/>
                         <viewControllerLayoutGuide type="bottom" id="89q-0g-cVE"/>
@@ -177,6 +177,10 @@
                             <constraint firstItem="5Xf-57-gve" firstAttribute="trailing" secondItem="hI7-Pf-6tE" secondAttribute="trailingMargin" constant="5" id="vIg-GK-ksa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLbl" destination="5Xf-57-gve" id="7gj-tG-Na1"/>
+                        <outlet property="webView" destination="kGT-0m-odk" id="9nW-Hb-MCl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J94-RB-mpV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
